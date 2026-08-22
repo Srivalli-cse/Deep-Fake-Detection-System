@@ -4,5 +4,5 @@ Pillow
 torch
 torchvision
 transformers
-safetensorsgunicorn
+safetensors
 gunicorn
