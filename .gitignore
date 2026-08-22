@@ -1,26 +1,90 @@
-# Python virtual environment
+# =========================
+# Python
+# =========================
+
+# Virtual environments
 backend/venv/
 backend/.venv/
+venv/
+.venv/
+env/
+ENV/
 
 # Python cache
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*$py.class
 
-# Node dependencies
+# Python build/package files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test/coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Type checking/cache
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# =========================
+# Flask
+# =========================
+
+instance/
+.webassets-cache/
+
+# =========================
+# Node / React / Vite
+# =========================
+
 frontend/node_modules/
-
-# Build files
 frontend/dist/
 frontend/build/
 
-# Environment variables
+# =========================
+# Environment / Secrets
+# =========================
+
 .env
+.envrc
+*.env
 backend/.env
 frontend/.env
 
-# Uploaded user images
+# =========================
+# User Uploaded Images
+# =========================
+
 backend/uploads/*
 
+# =========================
 # Logs
+# =========================
+
 *.log
+
+# =========================
+# IDE
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+
+.DS_Store
+Thumbs.db
