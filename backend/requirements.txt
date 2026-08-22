@@ -1,0 +1,8 @@
+Flask
+flask-cors
+Pillow
+torch
+torchvision
+transformers
+safetensorsgunicorn
+gunicorn
